@@ -16,3 +16,11 @@ Before using this script, ensure you have the following prerequisites:
  server = 'YOUR_SQL_SERVER_NAME'
  database = 'YOUR_DATABASE_NAME'
 
+python excel_to_sql.py
+column_mapping = {
+    'Excel Column Name 1': 'SQL_Column_Name_1',
+    'Excel Column Name 2': 'SQL_Column_Name_2',
+    # Add more mappings as needed
+}
+
+
